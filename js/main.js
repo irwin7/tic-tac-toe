@@ -14,6 +14,7 @@ function start(){
     }
 }
 start();
+
 elRetryBtn.addEventListener('click', ()=>{
     elContainer.innerHTML = " ";
     elCover.classList.remove("d-flex");
